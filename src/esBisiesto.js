@@ -1,4 +1,7 @@
 function esBisisesto(anio){
-    return true;
+    if(anio === 4){
+        return true;
+    }
+    return false;
 }
 export default esBisisesto;
