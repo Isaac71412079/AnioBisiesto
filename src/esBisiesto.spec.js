@@ -7,5 +7,9 @@ describe("Es anio Bisiesto", () => {
   it("el año 5 no deberia considerarse como año Bisiesto", () => {
     expect(esBisisesto(5)).toEqual(false);
   });
+  it("Debería mostrar todos los años divisibles entre 400 - BISIESTO", () => {
+    expect(esBisisesto(2000)).toEqual(true);
+  });
+
 });
 
